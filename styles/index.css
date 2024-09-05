@@ -9,7 +9,11 @@ body{
     background-color: rgb(40, 40, 40);
     padding: 20px;
     margin: auto;
+}
 
+.resume{
+    display: flex;
+    flex-flow: row wrap;
 }
 /* ------SECTION-1------- */
 .section1{
@@ -77,11 +81,13 @@ ul li b::after{
 
 /* ------SECTION-2------- */
 .section2{
-    width: 50%;
-    height: 700px;
+    width: 63%;
+    height: 800px;
     border: 1px solid white;
     margin-top: 30px;
 }
+
+/* EMPLOYMENT SECTION */
 
 .nav{
     display: flex;
@@ -89,10 +95,12 @@ ul li b::after{
 
 .nav > svg{
     width: 30px;
-    height: auto;
+    height: 29px;
+    align-self: center;
     margin-right: 0px;
     color: aqua;
-    /* border-radius: 5px 0px 0px 5px; */
+    background-color: white;
+    border-radius: 5px;
 }
 
 .nav > h2{
@@ -106,3 +114,58 @@ ul li b::after{
     align-content: center;
     justify-items: left;
 }
+
+.content{
+    display: flex;
+    /* border: 1px solid white; */
+}
+
+.content-title{
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 1px solid white; */
+    width: 70%;
+}
+
+.content-title >svg{
+    width: 15px;
+    height: 15px;
+    align-self: center;
+    margin-right: 4px;
+    color:white;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.content-title > h3{
+    /* border: 1px solid white; */
+    width: 93%;
+    /* margin-bottom: 0; */
+}
+
+.content-title > h5 {
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.content-date{
+    margin-left: auto;
+}
+
+.text{
+    margin-top: -20px;
+}
+
+/* EDUCATION SECTION */
+
+/* -----SECTION 3----- */
+.section3{
+    width: 30%;
+    height: 800px;
+    margin-top: 30px;
+    margin-left: auto;
+    border: 1px solid white;
+    display: flex;
+}
+
+
